@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: c129c2b876add5d91879156a93caff67
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Cabins_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 327
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46ea6b80c10714c8a67c361ca520aa4
+      internalID: -1007853646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: 4}
+        - {x: -40, y: -40}
+        - {x: 29, y: -40}
+        - {x: 29, y: -52}
+        - {x: 36, y: -52}
+        - {x: 36, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022e4269528e14ae3b84f3f1db389f45
+      internalID: 1492145143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House-02
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: 4}
+        - {x: -40, y: -40}
+        - {x: 29, y: -40}
+        - {x: 29, y: -52}
+        - {x: 36, y: -52}
+        - {x: 36, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0746989bf64c1d88816431956ba4d4
+      internalID: -74535162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House-03
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: 4}
+        - {x: -40, y: -40}
+        - {x: 29, y: -40}
+        - {x: 29, y: -52}
+        - {x: 36, y: -52}
+        - {x: 36, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100db4fabb97d9aa9bedc68efe527361
+      internalID: 1984867892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House-04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: 4}
+        - {x: -40, y: -40}
+        - {x: 29, y: -40}
+        - {x: 29, y: -52}
+        - {x: 36, y: -52}
+        - {x: 36, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1661089ec813a568020bc1d9178d9a
+      internalID: -2126873263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House-05
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: 4}
+        - {x: -40, y: -40}
+        - {x: 29, y: -40}
+        - {x: 29, y: -52}
+        - {x: 36, y: -52}
+        - {x: 36, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b43ef61aa9de52468dbcd6a50d7ad6f
+      internalID: -1392934155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House-06
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: 4}
+        - {x: -40, y: -40}
+        - {x: 29, y: -40}
+        - {x: 29, y: -52}
+        - {x: 36, y: -52}
+        - {x: 36, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab01c625810b01d4d86b1bb2c5d90f4f
+      internalID: 182518271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House-07
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: 4}
+        - {x: -40, y: -40}
+        - {x: 29, y: -40}
+        - {x: 29, y: -52}
+        - {x: 36, y: -52}
+        - {x: 36, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e1950815624b3f5b76ae0c8c12e05a
+      internalID: 805947790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House-08
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: 4}
+        - {x: -40, y: -40}
+        - {x: 29, y: -40}
+        - {x: 29, y: -52}
+        - {x: 36, y: -52}
+        - {x: 36, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1ec750ba6ec1632a8710729bf2a10f
+      internalID: 945540422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House-09
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40, y: 4}
+        - {x: -40, y: -40}
+        - {x: 29, y: -40}
+        - {x: 29, y: -52}
+        - {x: 36, y: -52}
+        - {x: 36, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6882bfd07ce52735a5b14c8566da58e
+      internalID: 1323618922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      House-01: 1492145143
+      House-02: -74535162
+      House-03: 1984867892
+      House-04: -2126873263
+      House-05: -1392934155
+      House-06: 182518271
+      House-07: 805947790
+      House-08: 945540422
+      House-09: 1323618922
+      PC Computer - Stardew Valley - Cabins_0: -1007853646
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
