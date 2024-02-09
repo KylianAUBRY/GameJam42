@@ -16,13 +16,13 @@ public class Character : MonoBehaviour
     void Start()
     {
         canva.SetActive(false);
+		settingsWindow.SetActive(false);
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        
         dir.x = Input.GetAxisRaw("Horizontal");
         dir.y = Input.GetAxisRaw("Vertical");
         
