@@ -12,13 +12,14 @@ public class Character : MonoBehaviour
 	public GameObject settingsWindow;
     
     Animator anim;
-
+    
     void Start()
     {
         canva.SetActive(false);
 		settingsWindow.SetActive(false);
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        anim.SetInteger("skin", 1);
     }
 
     void Update()
@@ -29,9 +30,13 @@ public class Character : MonoBehaviour
         if (Input.GetKeyDown("escape"))
         {
             if (canva.active == false)
+            {
                 canva.SetActive(true);
+                TimerScript.instance.StopTime();
+            }
             else
 			{
+                TimerScript.instance.StartTime();
 				settingsWindow.SetActive(false);
                 canva.SetActive(false);
 			}
