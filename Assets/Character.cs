@@ -7,20 +7,37 @@ public class Character : MonoBehaviour
     public float speed = 5f;
     Rigidbody2D rb;
     Vector2 dir;
+    public GameObject canva;
+
+	public GameObject settingsWindow;
     
     Animator anim;
 
     void Start()
     {
+        canva.SetActive(false);
+		settingsWindow.SetActive(false);
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        
         dir.x = Input.GetAxisRaw("Horizontal");
         dir.y = Input.GetAxisRaw("Vertical");
+        
+        if (Input.GetKeyDown("escape"))
+        {
+            if (canva.active == false)
+                canva.SetActive(true);
+            else
+			{
+				settingsWindow.SetActive(false);
+                canva.SetActive(false);
+			}
+        }
+           
+
         rb.MovePosition(rb.position + dir * speed * Time.fixedDeltaTime);
         SetParam();
     }
