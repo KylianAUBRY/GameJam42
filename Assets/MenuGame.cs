@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MenuGame : MonoBehaviour
 {
@@ -12,7 +11,6 @@ public class MenuGame : MonoBehaviour
     public void ResumeGame()
     {
         canva.SetActive(false);
-        
     }
 
     public void SettingsButton()

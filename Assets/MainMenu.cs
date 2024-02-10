@@ -6,12 +6,13 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public GameObject settingsWindow;
-
+    
+    
     public void StartGame()
     {
-        SceneManager.LoadScene("Vilage");
+        SceneManager.LoadScene("temp");
     }
-    
+
     public void SettingsButton()
     {
         settingsWindow.SetActive(true);
@@ -26,4 +27,5 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
 }

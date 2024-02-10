@@ -454,9 +454,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 22
-        y: 31
+        y: 63
         width: 31
-        height: 61
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -605,7 +605,7 @@ TextureImporter:
         width: 16
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -626,7 +626,7 @@ TextureImporter:
         width: 16
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -647,7 +647,7 @@ TextureImporter:
         width: 16
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -655,6 +655,27 @@ TextureImporter:
       bones: []
       spriteID: 01d6c10a3b7fc829a82d554765b70706
       internalID: 277057151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Gus_26
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 30
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20de3fe22e7c59c6950ba0cf6e84543
+      internalID: -2137057371
       vertices: []
       indices: 
       edges: []
@@ -689,6 +710,7 @@ TextureImporter:
       PC Computer - Stardew Valley - Gus_23: 253437956
       PC Computer - Stardew Valley - Gus_24: 1689799789
       PC Computer - Stardew Valley - Gus_25: 277057151
+      PC Computer - Stardew Valley - Gus_26: -2137057371
       PC Computer - Stardew Valley - Gus_3: -428409831
       PC Computer - Stardew Valley - Gus_4: 188282015
       PC Computer - Stardew Valley - Gus_5: 2120930721

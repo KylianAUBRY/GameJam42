@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Character : MonoBehaviour
 {
     public float speed = 5f;
@@ -13,6 +13,14 @@ public class Character : MonoBehaviour
     
     Animator anim;
     
+    public Animator fadeSystem;
+    
+    private void Awake()
+    {
+        fadeSystem = GameObject.FindGameObjectWithTag("FadeSystem").GetComponent<Animator>();
+    }
+
+    
     void Start()
     {
         canva.SetActive(false);
@@ -20,6 +28,14 @@ public class Character : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         anim.SetInteger("skin", 1);
+        StartCoroutine(loadNextScene());
+    }
+
+    public IEnumerator loadNextScene()
+    {
+        fadeSystem.SetTrigger("FadeIn");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("Vilage");
     }
 
     void Update()

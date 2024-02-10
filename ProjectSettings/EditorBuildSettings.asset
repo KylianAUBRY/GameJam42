@@ -18,6 +18,18 @@ EditorBuildSettings:
     path: Assets/Scenes/House_top.unity
     guid: 1e78dcc3f98d9b74c91ff48906aef47c
   - enabled: 1
+    path: Assets/Scenes/police_station.unity
+    guid: 792eb951376e3f3d5afa3e65c357eb4d
+  - enabled: 1
+    path: Assets/Scenes/cave.unity
+    guid: 9c4de54c71dabaebba04f11bb27a6415
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 760de2c027eed67908140ddcbac0e6f7
+  - enabled: 1
     path: Assets/Scenes/House_generic.unity
     guid: 13e0300c602687ade83b037f945603d0
+  - enabled: 1
+    path: Assets/Scenes/temp.unity
+    guid: d6525e8b71200efa881210b3410c5dd6
   m_configObjects: {}
