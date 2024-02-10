@@ -7,8 +7,8 @@ public class LoadSpecificScene : MonoBehaviour
     private bool isCoroutineExecuting = false;
     public string sceneName;
     
-    public int tpX;
-    public int tpY;
+    public float tpX;
+    public float tpY;
 
     public Animator fadeSystem;
     

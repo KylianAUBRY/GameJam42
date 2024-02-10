@@ -1440,7 +1440,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 0.875, y: 1.625}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1464,6 +1464,7 @@ MonoBehaviour:
   speed: 5
   canva: {fileID: 1487887703}
   settingsWindow: {fileID: 360888716}
+  fadeSystem: {fileID: 0}
 --- !u!95 &454064548
 Animator:
   serializedVersion: 5
@@ -2108,7 +2109,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1000
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16

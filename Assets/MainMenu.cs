@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene("temp");
+        PlayerPrefs.DeleteAll();
     }
 
     public void SettingsButton()

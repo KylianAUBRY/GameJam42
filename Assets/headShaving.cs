@@ -2,55 +2,57 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class damageThePipe : MonoBehaviour
-{
 
+public class headShaving : MonoBehaviour
+{
     private bool isCoroutineExecuting = false;
     
     public Animator destroySystem;
-
-    public ParticleSystem part;
-
     public AudioSource audio;
 
+    public SpriteRenderer spriteRenderer;
+
+    public Sprite newSprite;
+    
     private Scene scene;
     
     private void Awake()
     {
-        part.Stop();
         audio.Stop();
         destroySystem = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
     }
-
+    
     void Start()
     {
         scene = SceneManager.GetActiveScene();
-        if (PlayerPrefs.HasKey(scene.name + " pipe") && PlayerPrefs.GetInt(scene.name + " pipe") == 1)
+        if (PlayerPrefs.HasKey(scene.name + " head") && PlayerPrefs.GetInt(scene.name + " head") == 1)
         {
             isCoroutineExecuting = true;
             audio.Play();
-            part.Play();
+            spriteRenderer.sprite = newSprite;
         }
     }
+    
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && Input.GetKey("e") && !isCoroutineExecuting && destroySystem.GetInteger("skin") == 1)
+        if (collision.CompareTag("Player") && Input.GetKey("e") && !isCoroutineExecuting && destroySystem.GetInteger("skin") == 2)
         {
             isCoroutineExecuting = true;
             StartCoroutine(loadAnim());
             History.instance.AddScore();
-       }
+        }
     }
-
+    
     public IEnumerator loadAnim()
     {
         scene = SceneManager.GetActiveScene();
-        PlayerPrefs.SetInt(scene.name + " pipe", 1);
+        PlayerPrefs.SetInt(scene.name + " head", 1);
         
         destroySystem.SetBool("AnimActif", true);
-        yield return new WaitForSeconds(1f);
+        spriteRenderer.sprite = newSprite;
         audio.Play();
-        part.Play();
+        yield return new WaitForSeconds(1f);
         destroySystem.SetBool("AnimActif", false);
+        isCoroutineExecuting = false;
     }
 }

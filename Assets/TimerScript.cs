@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TimerScript : MonoBehaviour
 {
-    private int time = 20;
+    private int time = 60;
 
     private bool start = true;
     

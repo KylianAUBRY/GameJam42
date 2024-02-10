@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class History : MonoBehaviour
 {
     public int scoreCount;
-
+    
     public static History instance;
 
     public Text HistoryCountText;
