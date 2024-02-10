@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: deaa159c1299220b291c73ea7c17c14f
+guid: dfb60a5165a2644eca9e48caa3bd452d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_0
+      name: Pam_0
       rect:
         serializedVersion: 2
         x: 106
@@ -118,24 +118,20 @@ TextureImporter:
         width: 152
         height: 75
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -76, y: 37.5}
-        - {x: -76, y: -37.5}
-        - {x: 76, y: -37.5}
-        - {x: 76, y: 37.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 460703f9a3c22af43ba3f9515bf72a86
-      internalID: 1900889236
+      spriteID: 286bd2a9817d9155e94439da3cbb86a0
+      internalID: 1611089143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_1
+      name: Pam_1
       rect:
         serializedVersion: 2
         x: 106
@@ -143,530 +139,26 @@ TextureImporter:
         width: 152
         height: 75
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5919d0472d0a09a219d4636c53dd21db
-      internalID: 1434590539
+      spriteID: aa5860df50c2c3668a52ab15f7a334e1
+      internalID: -1914327608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_2
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 233
-        width: 152
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b327b85a860c2ba0aae5c9e79ffdc455
-      internalID: -597062540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_3
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 191
-        width: 16
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c568abac5145873886267ba84796f89
-      internalID: -428409831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_4
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 157
-        width: 152
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aff6890741f4a0d6b9460577e61f03b5
-      internalID: 188282015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_5
+      name: Pam_2
       rect:
         serializedVersion: 2
         x: 22
-        y: 159
-        width: 13
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d42a468eab22927d8b4fda3226acacff
-      internalID: 2120930721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_6
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 159
+        y: 222
         width: 14
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1961723a11a3dcac8a8590e6e5d5a94
-      internalID: -1833185236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_7
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 159
-        width: 13
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74c6520f828dfc1c7bde44d8c13192ae
-      internalID: -886796484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_8
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 159
-        width: 14
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4d15b13ccd840e8ea0e7842196a4968
-      internalID: -1788360023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_9
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 127
-        width: 16
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 444a25f1f802295b386290ead3dba8d8
-      internalID: -671504719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_10
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 127
-        width: 15
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c485077057692c320b79e14cb99b5ac1
-      internalID: 973508730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_11
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 81
-        width: 152
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b703299920c64deafbbc14e9d80d91fa
-      internalID: 1446049251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_12
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 95
-        width: 13
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfc3007a360e9baa8bad53a3bc8f9cb5
-      internalID: -474917623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_13
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 95
-        width: 14
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b90c88df1bd97589994732c06fad8381
-      internalID: 1850738997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_14
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 95
-        width: 13
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27d4f03a7b6f19780a9d5009c7e443e4
-      internalID: 88185561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_15
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 95
-        width: 14
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51ef9879d1685af909681d1283b6a7dc
-      internalID: 926467876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_16
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 63
-        width: 31
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4dd5bd51c14adf6a59157bb00f8da851
-      internalID: 679761913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_17
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 63
-        width: 15
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 862107ade7096e19ea448602b0556636
-      internalID: 1626162139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_18
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 63
-        width: 15
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d58efd9387aef1c91a0803ef1ac5fafa
-      internalID: 231137757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_19
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 5
-        width: 152
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 904d4f9656fbbda0795029070351d05a
-      internalID: -619712085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_20
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 5
-        width: 103
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 409c69a64a3716db2a56d3d506f54509
-      internalID: -40686038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_21
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 127
-        width: 16
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78a765c4afcdc1afea0acbc4609512e7
-      internalID: 678746529
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_22
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 127
-        width: 15
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7069c518ad17bbd939b0ba439ed86304
-      internalID: -1281074577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_23
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 191
-        width: 16
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f080a5144242becc889c72e42b6c8d4
-      internalID: 253437956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_24
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 191
-        width: 16
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d258a3c5c8c46c000a80c7600c697882
-      internalID: 1689799789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_25
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 191
-        width: 16
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01d6c10a3b7fc829a82d554765b70706
-      internalID: 277057151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Gus_26
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 30
-        width: 15
-        height: 30
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -674,8 +166,533 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e20de3fe22e7c59c6950ba0cf6e84543
-      internalID: -2137057371
+      spriteID: 8c7c1a7dd358a705fb97960dfc13ef7d
+      internalID: -1105563239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 222
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7338be08fc0f6a8b8e365117e500073
+      internalID: -928111789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 222
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbece8fa90361a05b3f21aad64fa0d9
+      internalID: -1166461823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 222
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05242202375d09bdb69db48bd3bede4
+      internalID: 1931772724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 233
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943f1fd620d869eb39ce6f6dd7ddd0d6
+      internalID: -715416187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 190
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20048f8142707588808784e05f4267e
+      internalID: 1844950295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 190
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6a84840d73cae4d8d77f69c08ba136
+      internalID: 2142797807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 190
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d786e6195d55143a5d56c6bbad90ad
+      internalID: -1063944950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 190
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465e5a7fc5f53b814ab5b3a5a9e837ec
+      internalID: 203838726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 157
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcd52612d82ee49091ae84150afbd64
+      internalID: -1260503186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 158
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54412e71fb5c6b9dade98afb6b2b136
+      internalID: 1821738816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_13
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 158
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be89c67142af62ee884857b5efcbf81e
+      internalID: -256317851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 158
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebc7529054f97b43b86fdcba5b5b202
+      internalID: 760735297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 158
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cbf0c05f210588cbf6b8fcc5c0005b
+      internalID: -674887387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 126
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bcc94cc4ea35cc5b8c738538d40ede
+      internalID: -679994874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebd20fc68d227e9d9822e877def1879
+      internalID: 1340664412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 126
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ac58e4370c4914c9aaf58260e90b0b
+      internalID: -474785135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 126
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2265400d903847731b4caa2ecc63ed6d
+      internalID: -718385630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_20
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 81
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fd994222c7667b3bda953024396142
+      internalID: -1316412264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_21
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 67
+        width: 14
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2be9ec9604d9a4cb8476481f75b741
+      internalID: -875400992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_22
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 67
+        width: 14
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e494f201dd77f8aa64be139fb51eff
+      internalID: -1391670973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_23
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 67
+        width: 14
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317f9ba9906271ba799f0a0c9ec4b653
+      internalID: -52709036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 67
+        width: 14
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8342f3068516a027f8241a5b69c52cad
+      internalID: -1590927659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 5
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21db543438414626ab59c6ddde442851
+      internalID: 388781006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_26
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 31
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266c14b758503c932828fb0841b1d178
+      internalID: -1109146071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pam_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 103
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34faa12f8a374d3d282510fadc93ba0c
+      internalID: 580522816
       vertices: []
       indices: 
       edges: []
@@ -691,33 +708,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PC Computer - Stardew Valley - Gus_0: 1900889236
-      PC Computer - Stardew Valley - Gus_1: 1434590539
-      PC Computer - Stardew Valley - Gus_10: 973508730
-      PC Computer - Stardew Valley - Gus_11: 1446049251
-      PC Computer - Stardew Valley - Gus_12: -474917623
-      PC Computer - Stardew Valley - Gus_13: 1850738997
-      PC Computer - Stardew Valley - Gus_14: 88185561
-      PC Computer - Stardew Valley - Gus_15: 926467876
-      PC Computer - Stardew Valley - Gus_16: 679761913
-      PC Computer - Stardew Valley - Gus_17: 1626162139
-      PC Computer - Stardew Valley - Gus_18: 231137757
-      PC Computer - Stardew Valley - Gus_19: -619712085
-      PC Computer - Stardew Valley - Gus_2: -597062540
-      PC Computer - Stardew Valley - Gus_20: -40686038
-      PC Computer - Stardew Valley - Gus_21: 678746529
-      PC Computer - Stardew Valley - Gus_22: -1281074577
-      PC Computer - Stardew Valley - Gus_23: 253437956
-      PC Computer - Stardew Valley - Gus_24: 1689799789
-      PC Computer - Stardew Valley - Gus_25: 277057151
-      PC Computer - Stardew Valley - Gus_26: -2137057371
-      PC Computer - Stardew Valley - Gus_3: -428409831
-      PC Computer - Stardew Valley - Gus_4: 188282015
-      PC Computer - Stardew Valley - Gus_5: 2120930721
-      PC Computer - Stardew Valley - Gus_6: -1833185236
-      PC Computer - Stardew Valley - Gus_7: -886796484
-      PC Computer - Stardew Valley - Gus_8: -1788360023
-      PC Computer - Stardew Valley - Gus_9: -671504719
+      Pam_0: 1611089143
+      Pam_1: -1914327608
+      Pam_10: 203838726
+      Pam_11: -1260503186
+      Pam_12: 1821738816
+      Pam_13: -256317851
+      Pam_14: 760735297
+      Pam_15: -674887387
+      Pam_16: -679994874
+      Pam_17: 1340664412
+      Pam_18: -474785135
+      Pam_19: -718385630
+      Pam_2: -1105563239
+      Pam_20: -1316412264
+      Pam_21: -875400992
+      Pam_22: -1391670973
+      Pam_23: -52709036
+      Pam_24: -1590927659
+      Pam_25: 388781006
+      Pam_26: -1109146071
+      Pam_27: 580522816
+      Pam_3: -928111789
+      Pam_4: -1166461823
+      Pam_5: 1931772724
+      Pam_6: -715416187
+      Pam_7: 1844950295
+      Pam_8: 2142797807
+      Pam_9: -1063944950
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
