@@ -12,6 +12,7 @@ public class MenuGame : MonoBehaviour
     public void ResumeGame()
     {
         canva.SetActive(false);
+        
     }
 
     public void SettingsButton()
@@ -28,4 +29,5 @@ public class MenuGame : MonoBehaviour
     {
         Application.Quit();
     }
+    
 }
