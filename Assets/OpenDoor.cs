@@ -31,8 +31,7 @@ public class OpenDoor : MonoBehaviour
         if (PlayerPrefs.HasKey(scene.name + this.ToString()) && PlayerPrefs.GetInt(scene.name + this.ToString()) == 1)
         {
             isCoroutineExecuting = true;
-            if (fuiteSprite != null)
-                Destroy(fuiteSprite);
+            fuiteSprite.SetBool("invisible", true);
             spriteRenderer.sprite = newSprite;
         }
     }
@@ -58,6 +57,7 @@ public class OpenDoor : MonoBehaviour
         destroySystem.SetBool("AnimActif", false);
         fuiteSprite.SetBool("Walk1", true);
         yield return new WaitForSeconds(14f);
+        fuiteSprite.SetBool("invisible", true);
         Destroy(fuiteSprite);
     }
 
