@@ -1,0 +1,1865 @@
+fileFormatVersion: 2
+guid: 7a6e0d6ef949c155bbad4e2e92b62b11
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 632
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f7653dea5d4a06c83c4881ae8cc7ab
+      internalID: -1742835663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 632
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45e1bad2125efc92ae7c52ab19cb3ef
+      internalID: 1675426536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 632
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00d5fba0a965f5c292b9148bd0ca44a
+      internalID: -1900087865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 632
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf10a31a214ccefcf947e26899030947
+      internalID: 170273564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 600
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ae4d50ae271bcafa16ec957368f2ca
+      internalID: 1861777912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 600
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd490e07f8480920a197e305d1b923d
+      internalID: 1328885900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 600
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f07b07951ddf2cf1a93a73c20f934d5
+      internalID: -1013248579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 600
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0f30191f056431984d3e108b0e9104
+      internalID: -1449889111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 568
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276111ec99611ffe2b4dda0ff76fe3f7
+      internalID: -1607715394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 568
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ddad9301148fe59b40c60c50f99684
+      internalID: 216424068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 568
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da17b7aeff3bdb30bbb43b94ee81af9
+      internalID: 1245822375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 568
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e2fd08135d91269bf0acc5aac7f8fc
+      internalID: -2049898551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 536
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc3956b117c54a17a2b8f61eb6f622a
+      internalID: -464637238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 536
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2d5edd22bfca9eab3001a3081961fa
+      internalID: -1087022272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 536
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075269c5b20bd62df827cd865c47d537
+      internalID: 2043388501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 536
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b726d0e99757e5127913f9aad538cf23
+      internalID: -1856817896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 504
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c12717c5e170351d99e07645ac60409
+      internalID: -1329117058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 504
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e572eef25ae0872b195f9bda7e34a2
+      internalID: -671671773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 504
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451d24efe643863f0b55306e298b843d
+      internalID: 1973877752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_19
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 504
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb186b399391198e9ff5457c055f53e
+      internalID: -11209627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 472
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25412989281da1d90b07df7c6faa31ed
+      internalID: 814200366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 472
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e50b26d46846fd9a97d6a1b2cf91a2f
+      internalID: 1769946798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 472
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1609b2c78e241b353815824db4b998a2
+      internalID: -1425270639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_23
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 472
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eea10a094b0e73dcacfc454dc469732
+      internalID: -1476890529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 440
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0a8042c73cf070da4f6852c93a13dc
+      internalID: -2070468238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 440
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddaf5ca10f8235d6982107c9ee5c678
+      internalID: -654126809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 440
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da7c06d39da7079db06e8953f6e0fcb
+      internalID: 129598637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 440
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361ff9906feae53a8adbbf98a951702b
+      internalID: 1151896715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_28
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 381
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ef5e44421ca9212ac2cd6462a4dfcc
+      internalID: -1347108248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_29
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 406
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a3187a2ac56d36685d8c4c38b1242e
+      internalID: 111648340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_30
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 406
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0d9bc47a6ab5d9fa23bbf18dca7dde
+      internalID: 1226893954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_31
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 406
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9eaa6f6843544f25823ca9e4c2fd49b
+      internalID: 1682818777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_32
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 406
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35b96389086abe818d5c0606545100d
+      internalID: 47181697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_33
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 374
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423cf0e1cca18a34da7ac272a34e55df
+      internalID: 1992861995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_34
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 374
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e032d95491e5e9ca2db0cd3a98d2e8
+      internalID: -1423196015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_35
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 374
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f79fb0c8bd30562bffb17e36219950
+      internalID: 334098918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_36
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 374
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0105c55cc8c28febe82b6268322a1eb4
+      internalID: 1551648409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_37
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 305
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97aa1c6cda79f31fa808f0a9665e46e
+      internalID: 439584597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_38
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 342
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06331df5cdd862787a259f7ef2da0937
+      internalID: -1798610176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_39
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 342
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0adc05ae1be7f61d8fe6bb3184c9bdc
+      internalID: -1866985920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_40
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 342
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ba6ae034e10a7adb342eb2c071c782
+      internalID: -1916232700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_41
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 342
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3ddb318958844b783ca8d8d4166854
+      internalID: -1844677316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_42
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 310
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dacb58b20cffc847a89283935f0875e
+      internalID: 1622348870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_43
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 310
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24473138ec7ab04b8805dc33533cae61
+      internalID: -1460405335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_44
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 310
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4134e0f17ff97e4b2bf8ebbfd3c3ef
+      internalID: 952649622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_45
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 310
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693afc8ef9690f0f7a68f233c96b3ec2
+      internalID: -1179314242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_46
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 278
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58375a9b04e459dcba1f2c28930e4a3b
+      internalID: -275437609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_47
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 278
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3949f012cb93f864fa7d553d41044674
+      internalID: -265968524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_48
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 278
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fe29a10577fe52da23c7856ddbd7d3
+      internalID: -960482804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_49
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 229
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c48910bd60321ee89a96475bee05078
+      internalID: 1696993547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_50
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 246
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0de64bf35b38a48481eb57e219d6884
+      internalID: -1930216973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_51
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 246
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19364648de2a3d1429a3ab97e323a870
+      internalID: 367864132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_52
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 246
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1a550a89bbd4c79a67d84d485b0c28
+      internalID: 443752840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_53
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 246
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064f59f817f051e94a810912745eb76a
+      internalID: -697206814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_54
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 214
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c133d66872ac530bdb7b7c11fd93fe86
+      internalID: -1801199723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_55
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 214
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0215f786249f8995b4afd5b0925fe4a
+      internalID: -1598855954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_56
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 214
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7955ab8c82ce6e68bd38d621e09d78f
+      internalID: 704748903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_57
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 214
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1862b9550bb0d14abd7406a30b0ae2b
+      internalID: -1110044163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_58
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 153
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf62d87f4bfe1cbb98a27935ee022bd
+      internalID: 289703186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_59
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 150
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ec56035ff8aeb73a4c277de0dacec1
+      internalID: -1024519707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_60
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 150
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccd6e20e4e6c5d2a94ee4c6040b3b51
+      internalID: 491294204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_61
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 182
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee67812a8a576fe88d1214fa328bac7
+      internalID: -603587078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_62
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 182
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7341466336f723b2854bb7ddd7b127f
+      internalID: -973409829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_63
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 150
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8671b96e38d071095419a10c684f0e
+      internalID: 1047083627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_64
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 150
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab6580c2e2dcebba89b5cb2478f34f6
+      internalID: -209008905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_65
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 77
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e707486c7d6d95f9a3fdf5889ef2f2
+      internalID: -521171555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_66
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 103
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b315ba82f0bdc27c7bc0781666ac4b13
+      internalID: -3577667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_67
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 123
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e764e3423831b2e7a47c0bba5e7c7c2
+      internalID: -2119524071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_68
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 115
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047d7cc42460cd72297edaff358dce03
+      internalID: -651888965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_69
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 109
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d473e241d48ac58d847dc517e815b34
+      internalID: -783180462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_70
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 54
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9e9aa1c7a049bcf906585b8242c1e5
+      internalID: 1787376851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_71
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 54
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6508fab05bca30062bfba1efdf9f8914
+      internalID: -122190524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_72
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 54
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac624631d8095b47afc39069158246e
+      internalID: -1731096285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_73
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 54
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5529043cc651cd047a60ecebae6365c4
+      internalID: 393089868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_74
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07d34b8e74c49b259207a5ed699bb81
+      internalID: -1633963535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_75
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 22
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adec5dd8a2c5fe00883478dd4e9d3391
+      internalID: 930748660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_76
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 22
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60763ba367267c045a0f9b7af41e2c02
+      internalID: -789674858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_77
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 22
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60938e18f9f274afaa4d3129e379ce5a
+      internalID: -1370485771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Shane_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 103
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8aac05656a44f6a59c6e4aa58b4adb6
+      internalID: 317277685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Stardew Valley - Shane_0: -1742835663
+      PC Computer - Stardew Valley - Shane_1: 1675426536
+      PC Computer - Stardew Valley - Shane_10: 1245822375
+      PC Computer - Stardew Valley - Shane_11: -2049898551
+      PC Computer - Stardew Valley - Shane_12: -464637238
+      PC Computer - Stardew Valley - Shane_13: -1087022272
+      PC Computer - Stardew Valley - Shane_14: 2043388501
+      PC Computer - Stardew Valley - Shane_15: -1856817896
+      PC Computer - Stardew Valley - Shane_16: -1329117058
+      PC Computer - Stardew Valley - Shane_17: -671671773
+      PC Computer - Stardew Valley - Shane_18: 1973877752
+      PC Computer - Stardew Valley - Shane_19: -11209627
+      PC Computer - Stardew Valley - Shane_2: -1900087865
+      PC Computer - Stardew Valley - Shane_20: 814200366
+      PC Computer - Stardew Valley - Shane_21: 1769946798
+      PC Computer - Stardew Valley - Shane_22: -1425270639
+      PC Computer - Stardew Valley - Shane_23: -1476890529
+      PC Computer - Stardew Valley - Shane_24: -2070468238
+      PC Computer - Stardew Valley - Shane_25: -654126809
+      PC Computer - Stardew Valley - Shane_26: 129598637
+      PC Computer - Stardew Valley - Shane_27: 1151896715
+      PC Computer - Stardew Valley - Shane_28: -1347108248
+      PC Computer - Stardew Valley - Shane_29: 111648340
+      PC Computer - Stardew Valley - Shane_3: 170273564
+      PC Computer - Stardew Valley - Shane_30: 1226893954
+      PC Computer - Stardew Valley - Shane_31: 1682818777
+      PC Computer - Stardew Valley - Shane_32: 47181697
+      PC Computer - Stardew Valley - Shane_33: 1992861995
+      PC Computer - Stardew Valley - Shane_34: -1423196015
+      PC Computer - Stardew Valley - Shane_35: 334098918
+      PC Computer - Stardew Valley - Shane_36: 1551648409
+      PC Computer - Stardew Valley - Shane_37: 439584597
+      PC Computer - Stardew Valley - Shane_38: -1798610176
+      PC Computer - Stardew Valley - Shane_39: -1866985920
+      PC Computer - Stardew Valley - Shane_4: 1861777912
+      PC Computer - Stardew Valley - Shane_40: -1916232700
+      PC Computer - Stardew Valley - Shane_41: -1844677316
+      PC Computer - Stardew Valley - Shane_42: 1622348870
+      PC Computer - Stardew Valley - Shane_43: -1460405335
+      PC Computer - Stardew Valley - Shane_44: 952649622
+      PC Computer - Stardew Valley - Shane_45: -1179314242
+      PC Computer - Stardew Valley - Shane_46: -275437609
+      PC Computer - Stardew Valley - Shane_47: -265968524
+      PC Computer - Stardew Valley - Shane_48: -960482804
+      PC Computer - Stardew Valley - Shane_49: 1696993547
+      PC Computer - Stardew Valley - Shane_5: 1328885900
+      PC Computer - Stardew Valley - Shane_50: -1930216973
+      PC Computer - Stardew Valley - Shane_51: 367864132
+      PC Computer - Stardew Valley - Shane_52: 443752840
+      PC Computer - Stardew Valley - Shane_53: -697206814
+      PC Computer - Stardew Valley - Shane_54: -1801199723
+      PC Computer - Stardew Valley - Shane_55: -1598855954
+      PC Computer - Stardew Valley - Shane_56: 704748903
+      PC Computer - Stardew Valley - Shane_57: -1110044163
+      PC Computer - Stardew Valley - Shane_58: 289703186
+      PC Computer - Stardew Valley - Shane_59: -1024519707
+      PC Computer - Stardew Valley - Shane_6: -1013248579
+      PC Computer - Stardew Valley - Shane_60: 491294204
+      PC Computer - Stardew Valley - Shane_61: -603587078
+      PC Computer - Stardew Valley - Shane_62: -973409829
+      PC Computer - Stardew Valley - Shane_63: 1047083627
+      PC Computer - Stardew Valley - Shane_64: -209008905
+      PC Computer - Stardew Valley - Shane_65: -521171555
+      PC Computer - Stardew Valley - Shane_66: -3577667
+      PC Computer - Stardew Valley - Shane_67: -2119524071
+      PC Computer - Stardew Valley - Shane_68: -651888965
+      PC Computer - Stardew Valley - Shane_69: -783180462
+      PC Computer - Stardew Valley - Shane_7: -1449889111
+      PC Computer - Stardew Valley - Shane_70: 1787376851
+      PC Computer - Stardew Valley - Shane_71: -122190524
+      PC Computer - Stardew Valley - Shane_72: -1731096285
+      PC Computer - Stardew Valley - Shane_73: 393089868
+      PC Computer - Stardew Valley - Shane_74: -1633963535
+      PC Computer - Stardew Valley - Shane_75: 930748660
+      PC Computer - Stardew Valley - Shane_76: -789674858
+      PC Computer - Stardew Valley - Shane_77: -1370485771
+      PC Computer - Stardew Valley - Shane_78: 317277685
+      PC Computer - Stardew Valley - Shane_8: -1607715394
+      PC Computer - Stardew Valley - Shane_9: 216424068
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
