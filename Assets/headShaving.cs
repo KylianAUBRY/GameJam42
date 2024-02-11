@@ -53,6 +53,5 @@ public class headShaving : MonoBehaviour
         audio.Play();
         yield return new WaitForSeconds(1f);
         destroySystem.SetBool("AnimActif", false);
-        isCoroutineExecuting = false;
     }
 }

@@ -16,24 +16,28 @@ public class BurnTheWheat : MonoBehaviour
     private Scene scene;
     
     public Sprite newSprite;
+
+    public ParticleSystem part;
     
     public SpriteRenderer spriteRenderer;
     
     private void Awake()
     {
+        part.Stop();
         audio.Stop();
         audioFire.Stop();
         destroySystem = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
     }
     
     void Start()
-    {
-        Debug.Log(this.ToString());
-        
+    {   
         scene = SceneManager.GetActiveScene();
         if (PlayerPrefs.HasKey(scene.name + this.ToString()) && PlayerPrefs.GetInt(scene.name + this.ToString()) == 1)
         {
             isCoroutineExecuting = true;
+            part.Stop();
+            audio.Stop();
+            audioFire.Stop();
             spriteRenderer.sprite = newSprite;
         }
 
@@ -54,12 +58,12 @@ public class BurnTheWheat : MonoBehaviour
     {
         scene = SceneManager.GetActiveScene();
         PlayerPrefs.SetInt(scene.name + this.ToString(), 1);
-        
         destroySystem.SetBool("AnimActif", true);
         yield return new WaitForSeconds(1f);
         audio.Play();
+        part.Play();
         audioFire.Play();
-        spriteRenderer.sprite = newSprite;
+        //spriteRenderer.sprite = newSprite;
         destroySystem.SetBool("AnimActif", false);
     }
 }

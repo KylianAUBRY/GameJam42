@@ -62,10 +62,20 @@ public class TimerScript : MonoBehaviour
             switch (Player.GetInteger("skin"))
             {
                 case 2 : 
-                    GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(10, 10);
+                    GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(-17.12f, 3.26f);
                     break;
                 case 3:
-                    GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(10, 10);
+                    GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(-33.12f, 0.6f);
+                    break;
+                case 4:
+                    GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(10f, 10f);
+                    //ici tp scene comico
+                    break;
+                case 5:
+                    GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(20.94f, 1.24f);
+                    break;
+                case 6:
+                    GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(21.84f, -6.77f);
                     break;
             }
         }

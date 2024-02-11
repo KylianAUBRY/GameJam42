@@ -32,4 +32,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/temp.unity
     guid: d6525e8b71200efa881210b3410c5dd6
+  - enabled: 1
+    path: Assets/Scenes/commico.unity
+    guid: 0eafee318c5f7546ba80187c0425bfe9
+  - enabled: 1
+    path: Assets/Scenes/house2.unity
+    guid: 9ebc56efa3fde05aca8628bba7aa9d08
+  - enabled: 1
+    path: Assets/Scenes/house3.unity
+    guid: 63d381dc252b616c3aa7b9dd01cbbe20
+  - enabled: 1
+    path: Assets/Scenes/house4.unity
+    guid: 6ea12dcdabe31729d8bbb0a4165e24e9
+  - enabled: 1
+    path: Assets/Scenes/house5.unity
+    guid: 5c8bbe5adb98713eeb2c6a5e0705a146
+  - enabled: 1
+    path: Assets/Scenes/house6.unity
+    guid: 40c89e6f7269dbabb8b95a99e17fef40
+  - enabled: 1
+    path: Assets/Scenes/house7.unity
+    guid: 525c0f1832beccbc2a7c69650d6aa495
+  - enabled: 1
+    path: Assets/Scenes/house8.unity
+    guid: e71c1263bfb9e751fa988194fed6637b
+  - enabled: 1
+    path: Assets/Scenes/house9.unity
+    guid: 45214bb9fe4d96445a27381e24940d88
+  - enabled: 1
+    path: Assets/Scenes/mage.unity
+    guid: 563776eaa2a7cf657bf56f27aaf7749d
   m_configObjects: {}
