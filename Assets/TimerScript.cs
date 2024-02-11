@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TimerScript : MonoBehaviour
 {
-    private int time = 60;
+    private int time = 500;
 
     private bool start = true;
     
@@ -51,7 +51,7 @@ public class TimerScript : MonoBehaviour
                 GetComponent<Text>().text = string.Format("{0:0}:{1:00}", Mathf.Floor(time / 60), time % 60);
             }
             
-            time = 180;
+            time = 10;
             fadeSystem.SetTrigger("FadeIn");
             yield return new WaitForSeconds(1f);
             Scene test = SceneManager.GetActiveScene();
@@ -68,8 +68,9 @@ public class TimerScript : MonoBehaviour
                     GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(-33.12f, 0.6f);
                     break;
                 case 4:
-                    GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(10f, 10f);
-                    //ici tp scene comico
+                    if (test.name != "commico")
+                        SceneManager.LoadScene("commico"); 
+                    GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(0f, 0f);
                     break;
                 case 5:
                     GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(20.94f, 1.24f);

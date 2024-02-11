@@ -25,10 +25,9 @@ public class headShaving : MonoBehaviour
     void Start()
     {
         scene = SceneManager.GetActiveScene();
-        if (PlayerPrefs.HasKey(scene.name + " head") && PlayerPrefs.GetInt(scene.name + " head") == 1)
+        if ((!PlayerPrefs.HasKey(scene.name + " dead") || PlayerPrefs.GetInt(scene.name + " dead") != 1) && PlayerPrefs.HasKey(scene.name + " head") && PlayerPrefs.GetInt(scene.name + " head") == 1)
         {
             isCoroutineExecuting = true;
-            audio.Play();
             spriteRenderer.sprite = newSprite;
         }
     }
@@ -51,7 +50,7 @@ public class headShaving : MonoBehaviour
         destroySystem.SetBool("AnimActif", true);
         spriteRenderer.sprite = newSprite;
         audio.Play();
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         destroySystem.SetBool("AnimActif", false);
     }
 }

@@ -42947,11 +42947,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 854114410220525087, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.61
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 854114410220525087, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.13
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 854114410220525087, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: m_LocalPosition.z
@@ -42987,11 +42987,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1551925457783313044, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: tpX
-      value: -17.17
+      value: -20.54
       objectReference: {fileID: 0}
     - target: {fileID: 1551925457783313044, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: tpY
-      value: -22.57
+      value: 19.51
       objectReference: {fileID: 0}
     - target: {fileID: 1551925457783313044, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: sceneName
@@ -43007,19 +43007,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7343611663643562282, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: m_Size.x
-      value: 2.5290363
+      value: 2.9290571
       objectReference: {fileID: 0}
     - target: {fileID: 7343611663643562282, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: m_Size.y
-      value: 1.5231209
+      value: 1.7766023
       objectReference: {fileID: 0}
     - target: {fileID: 7343611663643562282, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: m_Offset.x
-      value: 0.6587428
+      value: 0.8587532
       objectReference: {fileID: 0}
     - target: {fileID: 7343611663643562282, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: m_Offset.y
-      value: -0.32287312
+      value: -0.8134072
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -43064,7 +43064,7 @@ Transform:
   m_GameObject: {fileID: 1329630415}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 8, z: 0}
+  m_LocalPosition: {x: 1.84, y: 7.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

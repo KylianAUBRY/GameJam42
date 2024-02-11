@@ -52,7 +52,7 @@ public class OpenDoor : MonoBehaviour
         PlayerPrefs.SetInt(scene.name + this.ToString(), 1);
         destroySystem.SetBool("AnimActif", true);
         audio.Play();
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         spriteRenderer.sprite = newSprite;
         destroySystem.SetBool("AnimActif", false);
         fuiteSprite.SetBool("Walk1", true);
