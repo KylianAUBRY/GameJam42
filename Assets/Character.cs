@@ -35,6 +35,7 @@ public class Character : MonoBehaviour
     {
         fadeSystem.SetTrigger("FadeIn");
         yield return new WaitForSeconds(1f);
+        GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(12.88f, -6.85f);
         SceneManager.LoadScene("Vilage");
     }
 
@@ -58,9 +59,11 @@ public class Character : MonoBehaviour
 			}
         }
            
-
-        rb.MovePosition(rb.position + dir * speed * Time.fixedDeltaTime);
-        SetParam();
+        if (anim.GetBool("AnimActif") == false)
+        {
+            rb.MovePosition(rb.position + dir * speed * Time.fixedDeltaTime);
+            SetParam();
+        }
     }
 
     void SetParam()
