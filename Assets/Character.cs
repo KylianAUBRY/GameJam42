@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Character : MonoBehaviour
 {
+    private bool isCoroutineExecuting = false;
+    
     public float speed = 5f;
     Rigidbody2D rb;
     Vector2 dir;
@@ -14,9 +16,12 @@ public class Character : MonoBehaviour
     Animator anim;
     
     public Animator fadeSystem;
+
+    public GameObject dinamite;
     
     private void Awake()
     {
+        dinamite.SetActive(false);
         fadeSystem = GameObject.FindGameObjectWithTag("FadeSystem").GetComponent<Animator>();
     }
 
@@ -64,6 +69,11 @@ public class Character : MonoBehaviour
             rb.MovePosition(rb.position + dir * speed * Time.fixedDeltaTime);
             SetParam();
         }
+		if (Input.GetKeyDown("e") && anim.GetInteger("skin") == 6 && !isCoroutineExecuting)
+        {
+            isCoroutineExecuting = true;
+            StartCoroutine(loadAnim());
+        }
     }
 
     void SetParam()
@@ -78,5 +88,18 @@ public class Character : MonoBehaviour
             anim.SetInteger("dir", 4);
         else if (dir.x == 0 && dir.y == 0)
             anim.SetInteger("dir", 0);
+    }
+
+    public IEnumerator loadAnim()
+    {
+        History.instance.AddDina();
+        anim.SetBool("AnimActif", true);
+        yield return new WaitForSeconds(1f);
+        GameObject instantiated = Instantiate(dinamite);
+        instantiated.transform.position = new Vector3(rb.position.x, rb.position.y - (0.87f));
+        instantiated.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        anim.SetBool("AnimActif", false);
+        isCoroutineExecuting = false;
     }
 }

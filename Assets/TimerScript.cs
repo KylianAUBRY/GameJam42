@@ -6,7 +6,21 @@ using UnityEngine.SceneManagement;
 
 public class TimerScript : MonoBehaviour
 {
-    private int time = 500;
+    
+    public GameObject[] objects;
+    
+    public GameObject objectsText1;
+    public GameObject objectsText2;
+    public GameObject objectsText3;
+    
+    
+    
+    public Camera camera;
+
+    public Canvas canva;
+    
+    
+    private int time = 60;
 
     private bool start = true;
     
@@ -51,7 +65,7 @@ public class TimerScript : MonoBehaviour
                 GetComponent<Text>().text = string.Format("{0:0}:{1:00}", Mathf.Floor(time / 60), time % 60);
             }
             
-            time = 10;
+            time = 60;
             fadeSystem.SetTrigger("FadeIn");
             yield return new WaitForSeconds(1f);
             Scene test = SceneManager.GetActiveScene();
@@ -79,7 +93,38 @@ public class TimerScript : MonoBehaviour
                     GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(21.84f, -6.77f);
                     break;
             }
-        }
+        }//objectsText
+        Destroy(objectsText1);
+        Destroy(objectsText2);
+        Destroy(objectsText3);
+        GetComponent<Text>().text = "";
         
+        camera.enabled = false;
+        if (History.instance.GetDina() > 0)
+        {
+            SceneManager.LoadScene("FInalExplosion");
+            yield return new WaitForSeconds(10f);
+        }
+        else
+        {
+            if (History.instance.GetScore() > 0)
+            {
+                SceneManager.LoadScene("FinalDark");
+                yield return new WaitForSeconds(14f);
+                
+            }
+            else
+            {
+                
+            }
+        }
+        SceneManager.LoadScene("Credits");
+        yield return new WaitForSeconds(20f);
+        SceneManager.LoadScene("MainMenu");
+        foreach (var element in objects)
+        {
+            //DontDestroyOnLoad(element);
+            Destroy(element);
+        }
     }
 }

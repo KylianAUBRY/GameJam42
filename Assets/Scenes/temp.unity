@@ -1465,6 +1465,7 @@ MonoBehaviour:
   canva: {fileID: 1487887703}
   settingsWindow: {fileID: 360888716}
   fadeSystem: {fileID: 0}
+  dinamite: {fileID: 497435453}
 --- !u!95 &454064548
 Animator:
   serializedVersion: 5
@@ -1547,11 +1548,95 @@ Transform:
   m_GameObject: {fileID: 454064544}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -48.8, y: -1.8, z: 0}
+  m_LocalPosition: {x: 4.6, y: -2.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1070576735}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &497435453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 497435455}
+  - component: {fileID: 497435454}
+  m_Layer: 0
+  m_Name: DYNAMITE_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &497435454
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497435453}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -968515253, guid: 2dfb708df7a769e5ea9901c09cf18b4e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.6875, y: 0.125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &497435455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497435453}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 68.361, y: -6.586, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &501165061
@@ -51701,6 +51786,7 @@ MonoBehaviour:
   - {fileID: 742024180}
   - {fileID: 157572153}
   - {fileID: 807814995}
+  - {fileID: 497435453}
 --- !u!4 &742024182
 Transform:
   m_ObjectHideFlags: 0
@@ -54641,7 +54727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 93.55505, y: -0.10115}
+  m_AnchoredPosition: {x: 98, y: -15}
   m_SizeDelta: {x: 187.11, y: 75.602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2122297751
@@ -54656,6 +54742,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e66624cf94d9456c6bdb0409c5ce9b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1779378155}
+  - {fileID: 454064544}
+  - {fileID: 1487887703}
+  - {fileID: 953887297}
+  - {fileID: 673186736}
+  - {fileID: 742024180}
+  - {fileID: 157572153}
+  - {fileID: 807814995}
+  - {fileID: 497435453}
+  objectsText1: {fileID: 1028926081}
+  objectsText2: {fileID: 1042597833}
+  objectsText3: {fileID: 1010654852}
+  camera: {fileID: 1070576738}
+  canva: {fileID: 1487887708}
   Player: {fileID: 0}
   fadeSystem: {fileID: 0}
 --- !u!114 &2122297752
@@ -54788,3 +54889,4 @@ SceneRoots:
   - {fileID: 807814997}
   - {fileID: 157572157}
   - {fileID: 1249972288}
+  - {fileID: 497435455}
