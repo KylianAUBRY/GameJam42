@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class History : MonoBehaviour
 {
     public int scoreCount;
+
+    private int dina = 0;
     
     public static History instance;
 
@@ -24,5 +26,20 @@ public class History : MonoBehaviour
     {
         scoreCount ++;
         HistoryCountText.text = scoreCount.ToString();
+    }
+
+    public int GetScore()
+    {
+        return scoreCount;
+    }
+
+    public void AddDina()
+    {
+        dina++;
+    }
+
+    public int GetDina()
+    {
+        return (dina);
     }
 }

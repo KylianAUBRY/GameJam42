@@ -457,14 +457,14 @@ RectTransform:
   m_GameObject: {fileID: 1223937242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.843702, y: 0.843702, z: 0.843702}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1496055941}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -29.59}
+  m_AnchoredPosition: {x: 0, y: 362}
   m_SizeDelta: {x: 1183.6, y: 5547.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1223937244
@@ -500,13 +500,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "``` \n<SIZE=200><B>NOM DU JEU</B>\n</SIZE>\n<SIZE=70>GameJam 2024</SIZE>\n\n\n<SIZE=80>game
-    created by the team PilouPilouPilouPilou</SIZE>\n\n\n\n\n<SIZE=160><B>ASSETS 
-    USED</B>\n</SIZE>\n\n<SIZE=120>- GRAPHICS -</SIZE>\n\n<SIZE=60>STARDEW VALLEY</SIZE>\n\n<SIZE=60>SDEMAUDE</SIZE>\n\n\n\n\n<SIZE=120>-
-    AUDIO -</SIZE>\n\n<SIZE=60> name music\n<I>name artiste</I></SIZE>\n\n\n\n<SIZE=120>-
-    AUDIO -</SIZE>\n\n<SIZE=60>SDEMAUDE</SIZE>\n\n\n\n<SIZE=150><B>DEVELOPPEMENT</B>\n</SIZE>\n\n\n\n\n<SIZE=120>-
-    GAME DESIGNER -</SIZE>\n\n<SIZE=60> ALMARICO </SIZE>\n\n\n\n\n\n<SIZE=120>- DEVELOPER
-    -</SIZE>\n\n<SIZE=60> KYAUBRY </SIZE>\n\n\n\n\n<SIZE=120>- SPECIAL  THANKS -</SIZE>\n\n<SIZE=60>\n\n<I></I></SIZE>\n\n\n<SIZE=60><I>PilouPilouPilouPilou 
+  m_Text: "``` \n<SIZE=200><B>YOU HAD ONE JOB ...</B>\n</SIZE>\n<SIZE=70>GameJam
+    2024</SIZE>\n\n\n<SIZE=80>game created by the team PilouPilouPilouPilou</SIZE>\n\n\n\n<SIZE=120>-
+    GRAPHICS -</SIZE>\n\n\n\n<SIZE=90>SDEMAUDE</SIZE>\n\n\n\n<SIZE=50>STARDEW VALLEY</SIZE>\n\n\n<SIZE=120>-
+    AUDIO -</SIZE>\n\n\n<SIZE=60> Mushroom musique gamejam v2\n<I>Twanti</I></SIZE>\n\n\n<SIZE=60>https://www.youtube.com/watch?v=ameE9ajxfw8</SIZE>\n\n\n<SIZE=60>https://www.youtube.com/watch?v=xDf8w_NffIo</SIZE>\n\n\n<SIZE=60>https://www.youtube.com/watch?v=_JsgYJcVWM4</SIZE>\n\n\n\n\n<SIZE=120>-
+    GAME DESIGNER -</SIZE>\n\n\n<SIZE=60> ALMARICO </SIZE>\n\n\n<SIZE=60>SDEMAUDE</SIZE>\n\n\n\n<SIZE=120>-
+    DEVELOPER -</SIZE>\n\n<SIZE=60> KYAUBRY </SIZE>\n\n\n\n<SIZE=60><I>PilouPilouPilouPilou 
     <3</I></SIZE>\n\n```"
 --- !u!222 &1223937245
 CanvasRenderer:

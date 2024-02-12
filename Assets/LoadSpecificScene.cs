@@ -12,15 +12,18 @@ public class LoadSpecificScene : MonoBehaviour
 
     public Animator fadeSystem;
     
+    public Animator anim;
+    
     private void Awake()
     {
         fadeSystem = GameObject.FindGameObjectWithTag("FadeSystem").GetComponent<Animator>();
+        anim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
     }
 
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && Input.GetKey("e") && !isCoroutineExecuting)
+        if (collision.CompareTag("Player") && Input.GetKey("e") && !isCoroutineExecuting && anim.GetInteger("skin") != 6)
         {
             isCoroutineExecuting = true;
             StartCoroutine(loadNextScene());

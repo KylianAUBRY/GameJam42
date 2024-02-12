@@ -59,7 +59,7 @@ public class BurnTheWheat : MonoBehaviour
         scene = SceneManager.GetActiveScene();
         PlayerPrefs.SetInt(scene.name + this.ToString(), 1);
         destroySystem.SetBool("AnimActif", true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         audio.Play();
         part.Play();
         audioFire.Play();

@@ -48,7 +48,7 @@ public class damageThePipe : MonoBehaviour
         PlayerPrefs.SetInt(scene.name + " pipe", 1);
         
         destroySystem.SetBool("AnimActif", true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         audio.Play();
         part.Play();
         destroySystem.SetBool("AnimActif", false);
