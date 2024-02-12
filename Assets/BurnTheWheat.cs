@@ -20,6 +20,8 @@ public class BurnTheWheat : MonoBehaviour
     public ParticleSystem part;
     
     public SpriteRenderer spriteRenderer;
+
+    public bool isInRange = false;
     
     private void Awake()
     {
@@ -43,10 +45,21 @@ public class BurnTheWheat : MonoBehaviour
 
         
     }
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && Input.GetKey("e") && !isCoroutineExecuting &&
-            destroySystem.GetInteger("skin") == 3)
+        if (collision.CompareTag("Player"))
+            isInRange = true;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+            isInRange = false;
+    }
+
+    void Update()
+    {
+        if (isInRange == true && Input.GetKey("e") && !isCoroutineExecuting && destroySystem.GetInteger("skin") == 3)
         {
             isCoroutineExecuting = true;
             StartCoroutine(loadAnim()); 

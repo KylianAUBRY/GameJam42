@@ -43987,11 +43987,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1551925457783313044, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: tpX
-      value: -17.17
+      value: 15.86
       objectReference: {fileID: 0}
     - target: {fileID: 1551925457783313044, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: tpY
-      value: -22.57
+      value: 13.26
       objectReference: {fileID: 0}
     - target: {fileID: 1551925457783313044, guid: 74917849fb0e83d62accfb3a3a804912, type: 3}
       propertyPath: sceneName
@@ -44064,7 +44064,7 @@ Transform:
   m_GameObject: {fileID: 1329630415}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7, y: 7.59, z: 0}
+  m_LocalPosition: {x: 0.64, y: 7.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -63,13 +63,12 @@ public class Character : MonoBehaviour
                 canva.SetActive(false);
 			}
         }
-           
-        if (anim.GetBool("AnimActif") == false)
+        if (anim.GetBool("AnimActif") == false && canva.active == false)
         {
             rb.MovePosition(rb.position + dir * speed * Time.fixedDeltaTime);
             SetParam();
         }
-		if (Input.GetKeyDown("e") && anim.GetInteger("skin") == 6 && !isCoroutineExecuting)
+		if (Input.GetKeyDown("e") && anim.GetInteger("skin") == 6 && !isCoroutineExecuting && canva.active == false)
         {
             isCoroutineExecuting = true;
             StartCoroutine(loadAnim());

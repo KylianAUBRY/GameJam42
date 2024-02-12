@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class damageThePipe : MonoBehaviour
 {
+    public bool isInRange = false;
 
     private bool isCoroutineExecuting = false;
     
@@ -32,9 +33,22 @@ public class damageThePipe : MonoBehaviour
             part.Play();
         }
     }
-    private void OnTriggerStay2D(Collider2D collision)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && Input.GetKey("e") && !isCoroutineExecuting && destroySystem.GetInteger("skin") == 1)
+        if (collision.CompareTag("Player"))
+            isInRange = true;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+            isInRange = false;
+    }
+
+    void Update()
+    {
+        if (isInRange == true && Input.GetKey("e") && !isCoroutineExecuting && destroySystem.GetInteger("skin") == 1)
         {
             isCoroutineExecuting = true;
             StartCoroutine(loadAnim());

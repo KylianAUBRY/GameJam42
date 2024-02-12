@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalDark.unity
     guid: 92fc350240032302f82e1e190e9eefbe
+  - enabled: 1
+    path: Assets/Scenes/StartAnim.unity
+    guid: 4d2a2241bb9765cd484d110796e18c2e
   m_configObjects: {}

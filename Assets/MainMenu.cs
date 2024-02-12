@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
     
     public void StartGame()
     {
-        SceneManager.LoadScene("temp");
+        SceneManager.LoadScene("StartAnim");
         PlayerPrefs.DeleteAll();
     }
 
