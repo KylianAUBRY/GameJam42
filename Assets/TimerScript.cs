@@ -20,7 +20,7 @@ public class TimerScript : MonoBehaviour
     public Canvas canva;
     
     
-    private int time = 60;
+    private int time = 180;
 
     private bool start = true;
     
@@ -77,22 +77,29 @@ public class TimerScript : MonoBehaviour
             {
                 case 2 : 
                     GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(-17.12f, 3.26f);
+                    time = 180;
                     break;
                 case 3:
                     GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(-33.12f, 0.6f);
+                    time = 90;
                     break;
                 case 4:
                     if (test.name != "commico")
                         SceneManager.LoadScene("commico"); 
                     GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(0f, 0f);
+                    time = 60;
                     break;
                 case 5:
                     GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(20.94f, 1.24f);
+                    time = 180;
                     break;
                 case 6:
                     GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(21.84f, -6.77f);
+                    time = 120;
                     break;
             }
+            GetComponent<Text>().text = string.Format("{0:0}:{1:00}", Mathf.Floor(time / 60), time % 60);
+            Player.SetBool("AnimActif", false);
         }//objectsText
         Destroy(objectsText1);
         Destroy(objectsText2);
@@ -119,7 +126,7 @@ public class TimerScript : MonoBehaviour
             }
         }
         SceneManager.LoadScene("Credits");
-        yield return new WaitForSeconds(20f);
+        yield return new WaitForSeconds(22f);
         SceneManager.LoadScene("MainMenu");
         foreach (var element in objects)
         {

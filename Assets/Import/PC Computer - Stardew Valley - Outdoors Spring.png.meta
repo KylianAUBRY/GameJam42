@@ -39370,6 +39370,30 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Outdoors Spring_1867
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7049604dee98472eaa0736a600ef1f8
+      internalID: -1367178108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -40348,6 +40372,7 @@ TextureImporter:
       PC Computer - Stardew Valley - Outdoors Spring_1864: 63576556
       PC Computer - Stardew Valley - Outdoors Spring_1865: -2001077450
       PC Computer - Stardew Valley - Outdoors Spring_1866: -398529021
+      PC Computer - Stardew Valley - Outdoors Spring_1867: -1367178108
       PC Computer - Stardew Valley - Outdoors Spring_187: 1045804693
       PC Computer - Stardew Valley - Outdoors Spring_188: 1032262518
       PC Computer - Stardew Valley - Outdoors Spring_189: -972049764
